@@ -1,6 +1,5 @@
-import blogPost from '@/public/posts/blogPosts'
-
 /** @type {import('next-sitemap').IConfig} */
+const blogPost = require("./public/posts/blogPosts");
 module.exports = {
   siteUrl: "https://new-born-baby-care.vercel.app",
   generateRobotsTxt: true,
@@ -16,8 +15,6 @@ module.exports = {
     // 🔥 Fetch dynamic routes (e.g., blog posts)
     // const res = await fetch("https://your-api.com/api/posts"); // Replace with your API endpoint
     // const posts = await res.json(); // Must return array like [{ slug: 'baby-care' }, ...]
-
-
 
     return blogPost.map((post) => {
       return {
