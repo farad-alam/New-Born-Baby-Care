@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h2{
+    @apply text-pink-600 text-2xl font-bold pb-1 pt-5
+}
+
+h3{
+    @apply text-pink-600 text-xl font-bold pb-1 pt-5
+}
+h4{
+    @apply text-pink-600 text-lg font-bold pb-1 pt-5
+}
+h5{
+    @apply text-pink-600 text-lg font-bold pb-1 pt-5
+}
+h5{
+    @apply text-pink-600 font-bold pb-1 pt-5
+}
+
+
+hr{
+  
+}
+
+ul{
+    @apply list-disc pl-6 space-y-2 py-6 text-opacity-80
+}
+ul li {
+    @apply text-opacity-80
+}
+
+strong{
+    @apply text-pink-900
+}
