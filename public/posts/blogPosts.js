@@ -201,4 +201,4 @@ const blogPosts = [
   },
 ];
 
-export default blogPosts;
+module.exports = blogPosts;
