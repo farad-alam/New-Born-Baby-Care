@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://new-born-baby-care.vercel.app
+
+# Sitemaps
+Sitemap: https://new-born-baby-care.vercel.app/sitemap.xml
