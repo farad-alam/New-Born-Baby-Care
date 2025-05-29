@@ -57,6 +57,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="bn">
+      <meta
+        name="google-site-verification"
+        content="ST1Hhm9DearRT78yeK7x1Qr3HHzcw5iUNYSGUguuMGk"
+      />
       <body className={`${bangla.variable} font-sans`}>
         {children}
         <Toaster />
