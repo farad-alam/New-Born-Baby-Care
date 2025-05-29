@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: "https://grow-wise-farm.netlify.app",
+  siteUrl: "https://new-born-baby-care.vercel.app",
   generateRobotsTxt: true,
   transform: async (config, path) => {
     return {

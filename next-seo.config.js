@@ -20,7 +20,8 @@ const nextSEOConfig = {
     ],
   },
   twitter: {
-    cardType: "summary_large_image",
+    cardType:
+      "https://images.pexels.com/photos/265987/pexels-photo-265987.jpeg",
   },
   additionalMetaTags: [
     {
